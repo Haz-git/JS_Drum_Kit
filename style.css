@@ -1,0 +1,46 @@
+html {
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-image: url(https://images.idgesg.net/images/article/2019/05/audience_listens_to_speaker_lecture_at_a_conference_presentation_by_toxawww_gettyimages-974238866_2400x1600-100796682-large.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:white;
+}
+
+.slogan-wrapper {
+    text-align: center;
+    margin-top: 15rem;
+}
+
+.ml12 {
+    color: white;
+    font-weight: 200;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    filter: drop-shadow(0 0 0.50rem rgb(255, 255, 255));
+}
+  
+.ml12.letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(9, 1fr);
+    margin-top: 10rem;
+}
+
+button {
+    background-color: rgb(191, 55, 71);
+    border-radius: 3em;
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(102, 174, 162);
+    filter: drop-shadow(0 0 0.75rem rgb(221, 80, 108));
+}
